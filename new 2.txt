@@ -1,0 +1,30 @@
+sql: Structured query language
+
+database: 
+
+DDL stattements: DATA DEFINITION LANGUAGE 
+These are used to create and manage the structure of the database
+1) CREATE : it is used to create the database and table. 
+2) ALTER : It is used to add new colunm to existing table, to rename the column, to modify the colunm datatype , to drop the colunm from table
+3) DROP : to drop the table from database
+4) TRUNCATE	: to truncate the data from table.
+
+
+Constraints:
+1)Not Null- When we apply not null constraints to any of the colume it will not accept null values
+
+2)uniqe - when we apply 
+
+
+NOT NULL, UNIQUE AND CHECK CONSTRAINTS ARE THE COLUMN LEVEL CONSTRAINTS.
+
+PRIMARY KEY:
+primary key uniquly identifies each row in a table.
+by default primary key will have not null and unique constraints.
+each table should have one primary key.
+we can apply primary key to more than one column(multple columns)
+when we apply primary key to more than one column(multple columns) that is called as composit primary key. it always prsent int the parent table.
+
+FOREIGN KEY: - It will always presnt in the child table.
+*. PRMARY KEY AND FOREIGN KEY are always should be same.
+Primary key and Forreign key are the table level constraints.
